@@ -4,12 +4,12 @@ import HeaderList from './HeaderList';
 const Header = ()=>{
 
     const [toggleMenu,setToggleMenu] = useState("toggleinputs");
-    const [addOpacity,setAddOpacity] = useState(0);
+    const [addOpacity,setAddOpacity] = useState(0); 
 
     const togglemenuHandaler = ()=>{
         console.log("working");
 
-        if(toggleMenu || addOpacity){
+        if(toggleMenu){
             setToggleMenu("")
             setAddOpacity(100);
 
